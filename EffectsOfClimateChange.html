@@ -116,13 +116,14 @@ body {
 			<!--Newsletter-->
 
 			function myFunction() {
-			let text = "Do you want to join our newsletter? ";
+			let text = "Do you need to get in contact? ";
 			if (confirm(text) == true) {
-			prompt("Enter name",);
-			prompt("Enter email address",);
-			text = "You chose to join our newsletter";
+			prompt("Enter your name",);
+			prompt("Enter your email address",);
+			prompt("Enter your phone number",);
+			text = "You chose to contact";
 			} else {
-			text = "You chose not to join our newsletter";
+			text = "You chose not to contact";
 			}
 			document.getElementById("demo").innerHTML = text;
 			}
