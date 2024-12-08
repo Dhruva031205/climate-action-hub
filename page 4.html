@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Solutions to climate change</title>
+		<link rel="stylesheet" href="style2.css">
+		<script src="script.js" type="text/JavaScript"></script>
+		<!-- Linking the CCS and JavaScriptfiles -->
+	</head>
+	<body style="background-color: #3498db";
+		<div class="HFheading2">
+			<h1>Solutions</h1>
+			<h3>By Harry Farrell</h3>
+		</div>
+		<div class="Solutions-nav">
+			<a href="index.html" class="Solutions-nav_a">Climate Action Hub</a>
+			<a href="page 1.html" class="Solutions-nav_a">Basics</a>
+			<a href="page 2" class="Solutions-nav_a">Causes of Climate Change</a>
+			<a href="page 3" class="Solutions-nav_a">Effects of Climate Change</a>
+			<a href="page 5" class="Solutions-nav_a">Global Initiatives</a>
+			<!-- Nav Bar -->
+		</div>
+		<div class="HFpara2">
+			<p>There are many solutions for stopping climate change and many are in affect right now. The largest factor contributing to this is damage to the enviorenment. Not recycling recycable items is a massive problem as well as litter and the usage of cars. Older manual cars emit so much carbon dioxide per journey that really harms the atmosphere and has its effect on the enviorenment. However, electric cars are being manufactured more and more as time goes on which has a much better effect on the enviorenment, water is starting to be produced in cartons as opposed to bottles to help with the recycling issue and bottle caps now stay attached to the bottle after being opened which reduces people littering them.</p>  
+		</div>
+		<div class="row">
+			<img src="Ecosystem services.jpg">
+			<img src="Solution chart.jpg">
+		</div>
+			
+		<div class="HFpara3">
+			<p>The above images demonstrate different solutions for climate change and the effects it has on humans.</p>
+		</div>
+		<div class="row2">
+			<img src="Impact chart.jpg">
+			<img src="Stats.jpg">
+			<!-- Inserting images -->
+		</div>
+		<div class="HFpara4">
+			<p>The above images demonstrate different the effects climate change has on humans.</p>
+		</div>
+		<div class="col-md-12">
+			<p class="page4">Please fill in your details in the form below for any questions!</p>
+			<form class="form-page4" id="form-page4" onsubmit="return validate()">
+				
+				<label class="page4_label1" for="name">Name:</label>
+				<input class="page4_form_input1" type="text" id="name" placeholder="Your full name">
+				<br>
+				<label class="page4_label2" for="email">Email:</label>
+				<input class="page4_form_input2" type="email" id="email" placeholder="Your personal email">
+				<br>
+				<label class="page4_label3" for="phone number">Phone number:</label>
+				<input class="page4_form_input3" type="number" id="number" placeholder="Your mobile number">
+				<br>
+				<label class="page4_label4" for="questions">Questions:</label>
+				<textarea class="page4_form_textarea" id="question" placeholder="Write your question here"></textarea>
+				<button class="page4_form_button" type="submit">Submit</button>
+				<!-- Text boxes for users details and questions -->
+			</form>
+		</div>
+	
+		<div class="popular_solutions">
+			<p id="popular_solutions" class="popular_solutions"></p>
+			<button onclick="popularsolutions()" class="popularsolutions-button">Show popular a solution</button>
+			<!-- button to generate random solution -->
+		
+		<div class="time" id="demo2"></div>
+		
+		</div>
+	</body>
+</html>
