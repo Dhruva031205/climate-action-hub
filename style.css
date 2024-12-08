@@ -388,3 +388,217 @@ body{
   color: white;
 
 <!-- End of css for Alex Good -->
+
+<!-- Harry CSS -->
+
+/* Global Initiatives */
+
+.HFheading {
+	border: 5px solid;
+	border-radius: 20px;    /*border with curved corners*/     
+	max-width: fit-content;	/*makes border perfect size for amount of content*/
+	text-align: justify;
+	
+}
+
+.Global-initiatives-nav {
+	border: 5px solid;
+	border-radius: 20px;
+	max-width: fit-content;
+	position: absolute;
+	top: 197px;
+}
+
+
+.HFpara1 {
+	border: 5px solid;
+	border-radius: 20px;
+	max-width: 1000px;
+	position: absolute;
+	top: 230px;
+	/*position and border for main paragraph*/
+	
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 350px; 
+}
+
+.row1{
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 800px;
+}
+
+
+.page5 {
+	position: absolute;
+	top: 1220px;
+	
+}
+
+.page5_label1 {
+	position: absolute;
+	top: 1250px;
+}
+
+.page5_form_input1 {
+	position: absolute;
+	top: 1280px;
+}
+
+.page5_label2 {
+	position: absolute;
+	top: 1310px;
+}
+
+.page5_form_input2 {
+	position: absolute;
+	top: 1340px
+}
+
+.page5_label3 {
+	position: absolute;
+	top: 1370px;
+}
+
+.page5_form_input3 {
+	position: absolute;
+	top: 1400px;
+
+}
+
+.page5_label4 {
+	position: absolute;
+	top: 1430px;
+}
+
+.page5_form_textarea {
+	position: absolute;
+	top: 1460px;
+}
+
+.page5_form_button {
+	position: absolute;
+	top: 1500px;
+}
+
+.date {
+	position: absolute;
+	top: 1550px;
+}
+
+/* Solutions to Climate change */
+
+.Solutions-nav {
+	border: 5px;
+	border-radius: 20px;
+	position: absolute;
+	top: 150px;
+}
+
+.HFpara2 {
+	position: absolute;
+	top: 185px;
+	border: solid 5px;
+	border-radius: 20px;
+	max-width: fit-content;
+}
+
+.HFheading2 {
+	max-width: fit-content;
+	text-align: justify;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 315px;
+}
+
+.HFpara3 {
+	border: dashed;
+	border-radius: 20px;
+	position: absolute;
+	top: 720px;
+}
+
+.row2 {
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 800px;
+}	
+	
+.HFpara4 {
+	border: dashed;
+	border-radius: 20px;
+	position: absolute;
+	top: 1230px;
+}
+
+.page4_label1 {
+	position: absolute;
+	top: 1300px;
+}
+
+.page4_form_input1 {
+	position: absolute;
+	top: 1330px;
+}
+
+.page4_label2 {
+	position: absolute;
+	top: 1360px;
+}
+
+.page4_form_input2 {
+	position: absolute;
+	top: 1390px
+}
+
+.page4_label3 {
+	position: absolute;
+	top: 1420px;
+}
+
+.page4_form_input3 {
+	position: absolute;
+	top: 1450px;
+
+}
+
+.page4_label4 {
+	position: absolute;
+	top: 1480px;
+}
+
+.page4_form_textarea {
+	position: absolute;
+	top: 1510px;
+}
+
+.page4_form_button {
+	position: absolute;
+	top: 1550px;
+}
+	
+.popular_solutions {
+	position: absolute;
+	top: 1600px;
+} 
+	
+
+
+
+
+
+
+
+
+
